@@ -47,10 +47,10 @@ font: 75 12pt &quot;Fixedsys&quot;;
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>230</y>
-      <width>951</width>
-      <height>341</height>
+      <x>10</x>
+      <y>10</y>
+      <width>981</width>
+      <height>371</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -65,7 +65,7 @@ border-radius: 5px;</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>10</y>
+      <y>480</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -82,7 +82,7 @@ border-radius: 5px;</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>50</y>
+      <y>440</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -99,7 +99,7 @@ border-radius: 5px;</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>90</y>
+      <y>400</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -116,7 +116,7 @@ border-radius: 5px;</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>130</y>
+      <y>560</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -133,7 +133,7 @@ border-radius: 5px;</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>170</y>
+      <y>520</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -150,7 +150,7 @@ border-radius: 5px;</string>
     <property name="geometry">
      <rect>
       <x>900</x>
-      <y>0</y>
+      <y>580</y>
       <width>101</width>
       <height>20</height>
      </rect>
@@ -166,8 +166,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="DellLine">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>10</y>
+      <x>140</x>
+      <y>480</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -180,8 +180,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="AddLine">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>50</y>
+      <x>140</x>
+      <y>440</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -194,8 +194,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="AddLine_1">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>50</y>
+      <x>250</x>
+      <y>440</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -208,8 +208,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="AddLine_2">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>50</y>
+      <x>360</x>
+      <y>440</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -222,8 +222,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="AddLine_3">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>50</y>
+      <x>470</x>
+      <y>440</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -236,8 +236,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="ChangeLine_4">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>90</y>
+      <x>580</x>
+      <y>400</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -250,8 +250,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="ChangeLine_1">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>90</y>
+      <x>250</x>
+      <y>400</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -264,8 +264,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="ChangeLine_2">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>90</y>
+      <x>360</x>
+      <y>400</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -278,8 +278,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="ChangeLine_3">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>90</y>
+      <x>470</x>
+      <y>400</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -292,8 +292,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="ChangeLine">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>90</y>
+      <x>140</x>
+      <y>400</y>
       <width>101</width>
       <height>31</height>
      </rect>
@@ -306,8 +306,8 @@ border-radius: 5px;</string>
    <widget class="QLineEdit" name="lineEdit_13">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>170</y>
+      <x>140</x>
+      <y>520</y>
       <width>101</width>
       <height>31</height>
      </rect>

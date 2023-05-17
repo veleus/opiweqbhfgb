@@ -15,6 +15,8 @@ import vehicles
 import fuel
 import trips
 import inspections
+import login 
+
 
 
 
@@ -22,7 +24,25 @@ class Expample(QtWidgets.QMainWindow, MainWindowKursacha.Ui_MainWindow):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+
+
+class Login(QtWidgets.QMainWindow, login.Ui_MainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setupUi(self)
+        self.pushButton.clicked.connect(self.test)
+
+    def test(self):
+        self.login=self.lineEdit.text()
+        self.passwod=self.lineEdit_2.text()
+
+        if self.login == "Administrator" and self.passwod == "Administrator":
+            self.example = MainWindow()
+            self.example.show()
+            self.close()
         
+        else:
+             QtWidgets.QMessageBox.warning(self, "Ошибка", "Неправильный логин или пароль")
 
 
 
@@ -38,7 +58,7 @@ class Accidents(QtWidgets.QMainWindow,accidents.Ui_MainWindow):
 
     def test(self):
 
-        self.connection = sqlite3.connect("transport.db")
+        self.connection = sqlite3.connect("C:\\Users\\lovea\\OneDrive\\Документы\\my_project\\курсач\\transport.db")
         self.cursor = self.connection.cursor()
         self.cursor.execute("SELECT * FROM 'Accidents'")
         rows = self.cursor.fetchall()
@@ -684,6 +704,6 @@ class MainWindow(QtWidgets.QMainWindow):
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
-    window = MainWindow()
+    window = Login()
     window.show()
     sys.exit(app.exec_())

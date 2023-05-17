@@ -14,11 +14,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1000, 600)
-        MainWindow.setMinimumSize(QtCore.QSize(1000, 600))
-        MainWindow.setMaximumSize(QtCore.QSize(1000, 600))
-        MainWindow.setSizeIncrement(QtCore.QSize(1000, 800))
-        MainWindow.setBaseSize(QtCore.QSize(1000, 600))
+        MainWindow.resize(650, 600)
+        MainWindow.setMinimumSize(QtCore.QSize(650, 600))
+        MainWindow.setMaximumSize(QtCore.QSize(650, 600))
+        MainWindow.setSizeIncrement(QtCore.QSize(600, 650))
+        MainWindow.setBaseSize(QtCore.QSize(600, -31072))
         MainWindow.setStyleSheet("\n"
 "background-color: rgb(132, 37, 200);\n"
 "font: 75 12pt \"Fixedsys\";\n"
@@ -26,38 +26,44 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.AccidentsBtn = QtWidgets.QPushButton(self.centralwidget)
-        self.AccidentsBtn.setGeometry(QtCore.QRect(20, 10, 111, 31))
+        self.AccidentsBtn.setGeometry(QtCore.QRect(280, 150, 111, 20))
         self.AccidentsBtn.setStyleSheet("background-color: rgb(255, 207, 64);\n"
 "")
         self.AccidentsBtn.setObjectName("AccidentsBtn")
         self.DriversBtn = QtWidgets.QPushButton(self.centralwidget)
-        self.DriversBtn.setGeometry(QtCore.QRect(20, 50, 111, 31))
+        self.DriversBtn.setGeometry(QtCore.QRect(280, 190, 111, 21))
         self.DriversBtn.setStyleSheet("background-color: rgb(255, 207, 64);\n"
 "")
         self.DriversBtn.setObjectName("DriversBtn")
         self.FuelBtn = QtWidgets.QPushButton(self.centralwidget)
-        self.FuelBtn.setGeometry(QtCore.QRect(20, 90, 111, 31))
+        self.FuelBtn.setGeometry(QtCore.QRect(280, 210, 111, 21))
         self.FuelBtn.setStyleSheet("background-color: rgb(255, 207, 64);\n"
 "")
         self.FuelBtn.setObjectName("FuelBtn")
         self.InspectionsBtn = QtWidgets.QPushButton(self.centralwidget)
-        self.InspectionsBtn.setGeometry(QtCore.QRect(20, 130, 111, 31))
+        self.InspectionsBtn.setGeometry(QtCore.QRect(280, 170, 111, 21))
         self.InspectionsBtn.setStyleSheet("background-color: rgb(255, 207, 64);\n"
 "")
         self.InspectionsBtn.setObjectName("InspectionsBtn")
         self.MaintenanceBtn = QtWidgets.QPushButton(self.centralwidget)
-        self.MaintenanceBtn.setGeometry(QtCore.QRect(20, 170, 111, 31))
+        self.MaintenanceBtn.setGeometry(QtCore.QRect(280, 130, 111, 21))
         self.MaintenanceBtn.setStyleSheet("background-color: rgb(255, 207, 64);\n"
 "")
         self.MaintenanceBtn.setObjectName("MaintenanceBtn")
         self.TripsBtn = QtWidgets.QPushButton(self.centralwidget)
-        self.TripsBtn.setGeometry(QtCore.QRect(20, 210, 111, 31))
+        self.TripsBtn.setGeometry(QtCore.QRect(280, 90, 111, 20))
         self.TripsBtn.setStyleSheet("background-color: rgb(255, 207, 64);")
         self.TripsBtn.setObjectName("TripsBtn")
         self.Vehicles = QtWidgets.QPushButton(self.centralwidget)
-        self.Vehicles.setGeometry(QtCore.QRect(20, 250, 111, 31))
+        self.Vehicles.setGeometry(QtCore.QRect(280, 110, 111, 20))
         self.Vehicles.setStyleSheet("background-color: rgb(255, 207, 64);")
         self.Vehicles.setObjectName("Vehicles")
+        self.widget = QtWidgets.QWidget(self.centralwidget)
+        self.widget.setGeometry(QtCore.QRect(20, 10, 610, 26))
+        self.widget.setObjectName("widget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.widget)
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout.setObjectName("horizontalLayout")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
