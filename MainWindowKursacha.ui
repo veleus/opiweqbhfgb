@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>650</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>650</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>600</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>600</width>
+    <height>-31072</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Vehicles</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(132, 37, 200);
+font: 75 12pt &quot;Fixedsys&quot;;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="AccidentsBtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>150</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 207, 64);
+</string>
+    </property>
+    <property name="text">
+     <string>Accidents</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DriversBtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>190</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 207, 64);
+</string>
+    </property>
+    <property name="text">
+     <string>Drivers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FuelBtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>210</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 207, 64);
+</string>
+    </property>
+    <property name="text">
+     <string>Fuel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="InspectionsBtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>170</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 207, 64);
+</string>
+    </property>
+    <property name="text">
+     <string>Inspections</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MaintenanceBtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>130</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 207, 64);
+</string>
+    </property>
+    <property name="text">
+     <string>Maintenance</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TripsBtn">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>90</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 207, 64);</string>
+    </property>
+    <property name="text">
+     <string>Trips</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Vehicles">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>110</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 207, 64);</string>
+    </property>
+    <property name="text">
+     <string>Vehicles</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>610</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
